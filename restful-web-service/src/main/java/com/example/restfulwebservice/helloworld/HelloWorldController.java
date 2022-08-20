@@ -20,7 +20,7 @@ public class HelloWorldController {
     // @RequestMapping(method=RequestMethod.GET, path="/hello-world") : 구 버전
     @GetMapping("/hello-world")
     public String HelloWorld(){
-        return "hello world !";
+        return "hello world ! test";
     }
 
     @GetMapping("/hello-world-bean")
